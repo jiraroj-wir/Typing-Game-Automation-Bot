@@ -5,13 +5,13 @@ import (
     "image"
     "image/color"
 	"image/png"
-    //"strings"
+    "strings"
 	"os"
 
 	"github.com/kbinani/screenshot"
     "github.com/disintegration/imaging"
     "github.com/tiagomelo/go-ocr/ocr"
-    //"github.com/go-vgo/robotgo"
+    "github.com/go-vgo/robotgo"
 )
 
 type SubImager interface {
@@ -115,14 +115,14 @@ func main() {
 		return
 	}
 
-	file, err := os.Create("screenshots/screenshot.png")
+	file1, err := os.Create("screenshots/screenshot.png")
 	if err != nil {
 		fmt.Printf("Failed to save screenshot: %v\n", err)
 		return
 	}
-	defer file.Close()
+	defer file1.Close()
 
-	err = png.Encode(file, img)
+	err = png.Encode(file1, img)
 	if err != nil {
 		fmt.Printf("Failed to encode screenshot: %v\n", err)
 		return
@@ -152,9 +152,7 @@ func main() {
         fmt.Println("Error extracting text from binary: ", err)
         return
 	}
-
-    fmt.Println(extractedText)
-    /*
+    
     // Split the extracted text into slices of words based on spaces or newlines
     words := strings.Fields(extractedText)
 
@@ -167,7 +165,5 @@ func main() {
 
     // typeText := strings.Join(words, " ")
     // robotgo.TypeStr(typeText)
-
-    */
 }
 
