@@ -89,10 +89,7 @@ Please note that Tesseract OCR can be quite slow depending on your hardware. Aft
 #### Demo Video
 Here is a short demo of the bot in action:
 
-<video controls width="640">
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video]](https://raw.https://github.com/orca1018/Typing-Game-Automation-Bot/blob/main/README.md)
 
 ## Limitations
 
