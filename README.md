@@ -83,7 +83,16 @@ This project aims to:
 
 ### Video Demo
 
-(To be added later. Placeholder for embedding a video demonstration.)
+#### Note on Performance
+Please note that Tesseract OCR can be quite slow depending on your hardware. After running the bot, it might take a while before the typing begins. Be patient and ensure that the game screen is in full focus while the bot processes the text.
+
+#### Demo Video
+Here is a short demo of the bot in action:
+
+<video controls width="640">
+  <source src="screenshots/demo.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Limitations
 
