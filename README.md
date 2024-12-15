@@ -90,7 +90,7 @@ Please note that Tesseract OCR can be quite slow depending on your hardware. Aft
 Here is a short demo of the bot in action:
 
 <video controls width="640">
-  <source src="screenshots/demo.mov" type="video/mp4">
+  <source src="screenshots/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
