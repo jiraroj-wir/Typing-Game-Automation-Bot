@@ -68,9 +68,18 @@ This project aims to:
 
 ### Example Images
 
-| Screenshot                | Cropped Image          | Binary Image           |
-|---------------------------|------------------------|------------------------|
-| ![Screenshot](screenshots/screenshot.png) | ![Cropped](screenshots/cropped.png) | ![Binary](screenshots/binary.png) |
+<table>
+  <tr>
+    <th>Screenshot</th>
+    <th>Cropped Image</th>
+    <th>Binary Image</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/screenshot.png" alt="Screenshot" height="150"></td>
+    <td><img src="screenshots/cropped.png" alt="Cropped" height="150"></td>
+    <td><img src="screenshots/binary.png" alt="Binary" height="150"></td>
+  </tr>
+</table>
 
 ### Video Demo
 
