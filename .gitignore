@@ -1,0 +1,5 @@
+echo "bin/" > .gitignore
+echo "vendor/" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "*.out" >> .gitignore
+echo "*.test" >> .gitignore
