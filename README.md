@@ -51,18 +51,81 @@ This project aims to:
 2. **Tesseract OCR**: Install Tesseract OCR. Note that macOS users may encounter issues due to limited ARM support.
 3. **Permissions**: On macOS, grant permissions for screen recording and accessibility to allow automation.
 
+
 ## Installation and Usage
 
-1. Clone this repository and navigate to the project folder.
-2. Install dependencies and ensure Tesseract is installed and in your system's PATH.
-3. Run the game (`ttyper`) in one terminal window.
-4. Open another terminal window and execute:
+### 1. Clone the Repository
 
-   ```bash
-   go run main.go
-   ```
+Use `git` to clone this project and navigate into the folder:
 
-5. Switch to the ttyper window (fullscreen) and watch the automation in action.
+```bash
+git clone https://github.com/orca1018/Typing-Game-Automation-Bot
+cd Typing-Game-Automation-Bot
+```
+
+---
+
+### 2. Install Dependencies
+
+Make sure you have **Go** installed (Go 1.18 or higher is recommended). Then tidy up dependencies:
+
+```bash
+go mod tidy
+```
+
+---
+
+### 3. Install Tesseract OCR
+
+You need to install Tesseract and ensure it's available in your system's PATH.
+
+#### macOS:
+```bash
+brew install tesseract
+```
+
+#### Ubuntu / Debian:
+```bash
+sudo apt update
+sudo apt install tesseract-ocr
+```
+
+#### Windows:
+1. Download the Windows installer from: https://github.com/UB-Mannheim/tesseract/wiki
+2. Install it and note the install path (e.g. `C:\Program Files\Tesseract-OCR`)
+3. Add that folder to your **System PATH**
+4. Open Command Prompt and test with:
+```bash
+tesseract --version
+```
+
+---
+
+### 4. Run the Typing Game
+
+Launch the game in a terminal window:
+
+```bash
+ttyper
+```
+
+Make sure the game is in fullscreen or maximized so the OCR has a clean view.
+
+---
+
+### 5. Run the Bot
+
+In a **second terminal window**, run the bot:
+
+```bash
+go run main.go
+```
+
+Then switch back to the terminal running `ttyper` — the bot will take over from there and start typing automatically.
+
+---
+
+That’s it — you’re ready to watch your bot dominate the keyboard. 
 
 ## Screenshots
 
