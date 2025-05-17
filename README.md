@@ -89,7 +89,7 @@ Please note that Tesseract OCR can be quite slow depending on your hardware. Aft
 #### Demo Video
 Here is a short demo of the bot in action:
 
-<img src="screenshots/demo.gif" alt="Typing Bot Demo" width="500">
+<img src="screenshots/demo.gif" alt="Typing Bot Demo" width="800">
 
 <sub>If the demo GIF doesn’t appear, [click here to view it directly](screenshots/demo.gif).</sub>
 
