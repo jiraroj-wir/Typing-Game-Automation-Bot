@@ -179,6 +179,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
   - [kbinani/screenshot](https://github.com/kbinani/screenshot)
   - [disintegration/imaging](https://github.com/disintegration/imaging)
   - [tiagomelo/go-ocr](https://github.com/tiagomelo/go-ocr)
+  - [go-vgo/robotgo](https://github.com/go-vgo/robotgo)
 
 ## Notes
 
